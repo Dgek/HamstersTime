@@ -26,6 +26,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
 
     // create a scene. it's an autorelease object
     auto scene = Puzzle::createScene();
+    scene->scheduleUpdate();
 
     // run
     director->runWithScene(scene);

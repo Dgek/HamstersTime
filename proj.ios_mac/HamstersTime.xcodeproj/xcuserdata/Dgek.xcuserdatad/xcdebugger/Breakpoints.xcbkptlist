@@ -8,11 +8,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "../Classes/PuzzleScene.cpp"
-         timestampString = "413052664.812785"
+         timestampString = "413063832.86246"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "30"
-         endingLineNumber = "30"
+         startingLineNumber = "31"
+         endingLineNumber = "31"
          landmarkName = "Puzzle::init()"
          landmarkType = "5">
       </FileBreakpoint>
@@ -21,11 +21,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "../Classes/PuzzleGUI.cpp"
-         timestampString = "412985565.281407"
+         timestampString = "413063832.86246"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "15"
-         endingLineNumber = "15"
+         startingLineNumber = "17"
+         endingLineNumber = "17"
          landmarkName = "PuzzleGUI::init()"
          landmarkType = "5">
       </FileBreakpoint>
@@ -34,12 +34,51 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "../Classes/PuzzleGUI.cpp"
-         timestampString = "412985744.895936"
+         timestampString = "413063832.86246"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "16"
-         endingLineNumber = "16"
+         startingLineNumber = "18"
+         endingLineNumber = "18"
          landmarkName = "PuzzleGUI::init()"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "../Classes/Hamster.cpp"
+         timestampString = "413056719.871526"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "28"
+         endingLineNumber = "28"
+         landmarkName = "Hamster::update(float delta)"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "../Classes/PuzzleScene.cpp"
+         timestampString = "413063832.86246"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "87"
+         endingLineNumber = "87"
+         landmarkName = "Puzzle::update(float delta)"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "../Classes/PuzzleScene.cpp"
+         timestampString = "413063832.86246"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "139"
+         endingLineNumber = "139"
+         landmarkName = "Puzzle::onTouchBegan(cocos2d::Touch* touch, cocos2d::Event* event)"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>

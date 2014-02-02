@@ -7,6 +7,8 @@
 //
 
 #include "PuzzleGUI.h"
+#include "PuzzleScene.h"
+
 USING_NS_CC;
 
 bool PuzzleGUI::init()
@@ -36,10 +38,42 @@ bool PuzzleGUI::init()
     // create menu, it's an autorelease object
     auto menu = Menu::create(closeItem, NULL);
     menu->setPosition(Point::ZERO);
+    
+    auto vikingButton = MenuItemImage::create("Hmstbig_V_d.png", "Hmstbig_V_d.png",
+                                              CC_CALLBACK_1(PuzzleGUI::vikingTouchEndedCallback, this));
+    auto rastamanButton = MenuItemImage::create("Hmstbig_R_d.png", "Hmstbig_R_d.png",
+                                              CC_CALLBACK_1(PuzzleGUI::rastamanTouchEndedCallback, this));
+    auto geekButton = MenuItemImage::create("Hmstbig_G_d.png", "Hmstbig_G_d.png",
+                                              CC_CALLBACK_1(PuzzleGUI::geekTouchEndedCallback, this));
+    
+    Size buttonSize = vikingButton->getContentSize();
+    vikingButton->setPosition(Point(visibleSize.width / 3 - buttonSize.width*0.5, buttonSize.height*0.5));
+    rastamanButton->setPosition(Point(2*visibleSize.width / 3 - buttonSize.width*0.5, buttonSize.height*0.5));
+    geekButton->setPosition(Point(visibleSize.width - buttonSize.width*0.5, buttonSize.height*0.5));
+    
+    menu->addChild(vikingButton);
+    menu->addChild(rastamanButton);
+    menu->addChild(geekButton);
+    
     this->addChild(menu, 1);
     
     return true;
 
+}
+
+void PuzzleGUI::vikingTouchEndedCallback(Object* pSender)
+{
+    m_pPuzzle->setActiveViking();
+}
+
+void PuzzleGUI::rastamanTouchEndedCallback(Object* pSender)
+{
+    m_pPuzzle->setActiveRastaman();
+}
+
+void PuzzleGUI::geekTouchEndedCallback(Object* pSender)
+{
+    m_pPuzzle->setActiveGeek();
 }
 
 void PuzzleGUI::menuCloseCallback(Object* pSender)
@@ -49,4 +83,9 @@ void PuzzleGUI::menuCloseCallback(Object* pSender)
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_IOS)
     exit(0);
 #endif
+}
+
+void PuzzleGUI::setPuzzle(Puzzle* pPuzzle)
+{
+    m_pPuzzle = pPuzzle;
 }

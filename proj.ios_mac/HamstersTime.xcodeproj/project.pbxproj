@@ -83,6 +83,14 @@
 		D6AD3918189EAFBC00D8DFEF /* good_forward_d.png in Resources */ = {isa = PBXBuildFile; fileRef = D6AD3914189EAFBC00D8DFEF /* good_forward_d.png */; };
 		D6AD3921189EB1A800D8DFEF /* HamsterRoom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6AD391F189EB1A800D8DFEF /* HamsterRoom.cpp */; };
 		D6AD3922189EB1A800D8DFEF /* HamsterRoom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6AD391F189EB1A800D8DFEF /* HamsterRoom.cpp */; };
+		D6AD3925189ECEC000D8DFEF /* texture_d.png in Resources */ = {isa = PBXBuildFile; fileRef = D6AD3924189ECEC000D8DFEF /* texture_d.png */; };
+		D6AD3926189ECEC000D8DFEF /* texture_d.png in Resources */ = {isa = PBXBuildFile; fileRef = D6AD3924189ECEC000D8DFEF /* texture_d.png */; };
+		D6AD392B189ED0C000D8DFEF /* Hmstbig_G_d.png in Resources */ = {isa = PBXBuildFile; fileRef = D6AD3928189ED0C000D8DFEF /* Hmstbig_G_d.png */; };
+		D6AD392C189ED0C000D8DFEF /* Hmstbig_G_d.png in Resources */ = {isa = PBXBuildFile; fileRef = D6AD3928189ED0C000D8DFEF /* Hmstbig_G_d.png */; };
+		D6AD392D189ED0C000D8DFEF /* Hmstbig_R_d.png in Resources */ = {isa = PBXBuildFile; fileRef = D6AD3929189ED0C000D8DFEF /* Hmstbig_R_d.png */; };
+		D6AD392E189ED0C000D8DFEF /* Hmstbig_R_d.png in Resources */ = {isa = PBXBuildFile; fileRef = D6AD3929189ED0C000D8DFEF /* Hmstbig_R_d.png */; };
+		D6AD392F189ED0C000D8DFEF /* Hmstbig_V_d.png in Resources */ = {isa = PBXBuildFile; fileRef = D6AD392A189ED0C000D8DFEF /* Hmstbig_V_d.png */; };
+		D6AD3930189ED0C000D8DFEF /* Hmstbig_V_d.png in Resources */ = {isa = PBXBuildFile; fileRef = D6AD392A189ED0C000D8DFEF /* Hmstbig_V_d.png */; };
 		D6B0611B1803AB670077942B /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B0611A1803AB670077942B /* CoreMotion.framework */; };
 		D6EF6910189E3C09000EDEE3 /* Hamster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6EF690E189E3C09000EDEE3 /* Hamster.cpp */; };
 		D6EF6911189E3C09000EDEE3 /* Hamster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6EF690E189E3C09000EDEE3 /* Hamster.cpp */; };
@@ -323,6 +331,10 @@
 		D6AD3914189EAFBC00D8DFEF /* good_forward_d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = good_forward_d.png; path = Hamsters/good_forward_d.png; sourceTree = "<group>"; };
 		D6AD391F189EB1A800D8DFEF /* HamsterRoom.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HamsterRoom.cpp; path = ../Classes/HamsterRoom.cpp; sourceTree = "<group>"; };
 		D6AD3920189EB1A800D8DFEF /* HamsterRoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HamsterRoom.h; path = ../Classes/HamsterRoom.h; sourceTree = "<group>"; };
+		D6AD3924189ECEC000D8DFEF /* texture_d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = texture_d.png; path = HamstersRoom/texture_d.png; sourceTree = "<group>"; };
+		D6AD3928189ED0C000D8DFEF /* Hmstbig_G_d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Hmstbig_G_d.png; path = GUI/Hmstbig_G_d.png; sourceTree = "<group>"; };
+		D6AD3929189ED0C000D8DFEF /* Hmstbig_R_d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Hmstbig_R_d.png; path = GUI/Hmstbig_R_d.png; sourceTree = "<group>"; };
+		D6AD392A189ED0C000D8DFEF /* Hmstbig_V_d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Hmstbig_V_d.png; path = GUI/Hmstbig_V_d.png; sourceTree = "<group>"; };
 		D6B0611A1803AB670077942B /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
 		D6EF690E189E3C09000EDEE3 /* Hamster.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Hamster.cpp; path = ../Classes/Hamster.cpp; sourceTree = "<group>"; };
 		D6EF690F189E3C09000EDEE3 /* Hamster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Hamster.h; path = ../Classes/Hamster.h; sourceTree = "<group>"; };
@@ -528,6 +540,8 @@
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D6AD3927189ED08B00D8DFEF /* GUI */,
+				D6AD3923189ECEAA00D8DFEF /* HamstersRoom */,
 				D68D1DF5189D58CF00487934 /* Hamsters */,
 				D68D1DE0189D562300487934 /* TestMap */,
 				1AFAF8B916D35E4900DB1158 /* CloseNormal.png */,
@@ -556,6 +570,24 @@
 				D6EF6919189E41D3000EDEE3 /* evil_forward_d.png */,
 			);
 			name = Hamsters;
+			sourceTree = "<group>";
+		};
+		D6AD3923189ECEAA00D8DFEF /* HamstersRoom */ = {
+			isa = PBXGroup;
+			children = (
+				D6AD3924189ECEC000D8DFEF /* texture_d.png */,
+			);
+			name = HamstersRoom;
+			sourceTree = "<group>";
+		};
+		D6AD3927189ED08B00D8DFEF /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				D6AD3928189ED0C000D8DFEF /* Hmstbig_G_d.png */,
+				D6AD3929189ED0C000D8DFEF /* Hmstbig_R_d.png */,
+				D6AD392A189ED0C000D8DFEF /* Hmstbig_V_d.png */,
+			);
+			name = GUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -776,6 +808,10 @@
 				D6EF691A189E41D3000EDEE3 /* evil_forward_d.png in Resources */,
 				D6AD3915189EAFBC00D8DFEF /* fat_forward_d.png in Resources */,
 				D6AD3917189EAFBC00D8DFEF /* good_forward_d.png in Resources */,
+				D6AD3925189ECEC000D8DFEF /* texture_d.png in Resources */,
+				D6AD392B189ED0C000D8DFEF /* Hmstbig_G_d.png in Resources */,
+				D6AD392D189ED0C000D8DFEF /* Hmstbig_R_d.png in Resources */,
+				D6AD392F189ED0C000D8DFEF /* Hmstbig_V_d.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -793,6 +829,10 @@
 				D6EF691B189E41D3000EDEE3 /* evil_forward_d.png in Resources */,
 				D6AD3916189EAFBC00D8DFEF /* fat_forward_d.png in Resources */,
 				D6AD3918189EAFBC00D8DFEF /* good_forward_d.png in Resources */,
+				D6AD3926189ECEC000D8DFEF /* texture_d.png in Resources */,
+				D6AD392C189ED0C000D8DFEF /* Hmstbig_G_d.png in Resources */,
+				D6AD392E189ED0C000D8DFEF /* Hmstbig_R_d.png in Resources */,
+				D6AD3930189ED0C000D8DFEF /* Hmstbig_V_d.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

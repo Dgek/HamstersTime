@@ -16,6 +16,15 @@ bool Hamster::init()
     }
     
     m_direction = DIRECTION_UP;
+    m_velocity = cocos2d::Vect(1,0);
+    
+    this->scheduleUpdate();
     
     return true;
+}
+
+void Hamster::update(float delta)
+{
+    Sprite::update(delta);
+    this->setPosition(this->getPosition() + m_velocity);
 }

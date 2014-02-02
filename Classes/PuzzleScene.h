@@ -12,9 +12,11 @@ public:
 
     // Here's a difference. Method 'init' in cocos2d-x returns bool, instead of returning 'id' in cocos2d-iphone
     virtual bool init();
+    virtual void update(float delta);
     
-    //input hand
-    virtual bool onTouchBegan(cocos2d::Touch* touch, cocos2d::Event* event);
+    void setActiveViking();
+    void setActiveRastaman();
+    void setActiveGeek();
     
     // implement the "static create()" method manually
     CREATE_FUNC(Puzzle);
@@ -23,6 +25,17 @@ protected:
     cocos2d::Sprite* m_pVikingHamster;
     cocos2d::Sprite* m_pRastamanHamster;
     cocos2d::Sprite* m_pGeekHamster;
+    cocos2d::Sprite* m_pActiveHamster;
+    
+private:
+    virtual void onEnter();
+    virtual void onExit();
+    
+    
+    //input hand
+    bool onTouchBegan(cocos2d::Touch* touch, cocos2d::Event* event);
+    void onTouchMoved(cocos2d::Touch* touch, cocos2d::Event* event);
+    void onTouchEnded(cocos2d::Touch* touch, cocos2d::Event* event);
 };
 
 #endif // __PUZZLE_SCENE_H__

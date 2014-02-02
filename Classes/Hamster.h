@@ -16,10 +16,12 @@ class Hamster : public cocos2d::Sprite
 {
 private:
     Direction m_direction;
+    cocos2d::Vect m_velocity;
     
 public:
     
     virtual bool init();
+    virtual void update(float delta);
 };
 
 #endif /* defined(__HamstersTime__Hamster__) */
