@@ -1,6 +1,8 @@
 #include "PuzzleScene.h"
 #include "PuzzleGUI.h"
 
+#include "SimpleAudioEngine.h"
+
 USING_NS_CC;
 
 Scene* Puzzle::createScene()
@@ -79,6 +81,9 @@ bool Puzzle::init()
     this->scheduleUpdate();
     this->setTouchEnabled(true);
     
+    //play music
+    CocosDenshion::SimpleAudioEngine::sharedEngine()->playBackgroundMusic("background_music_viking.mp3", true);
+    
     return true;
 }
 
@@ -139,6 +144,8 @@ bool Puzzle::onTouchBegan(cocos2d::Touch* touch, cocos2d::Event* event)
     m_pActiveHamster->runAction(cocos2d::Sequence::create(
                                                           MoveTo::create(timeForAction, location),
                                                           NULL));
+    
+    return true;
 }
 
 void Puzzle::onTouchMoved(cocos2d::Touch* touch, cocos2d::Event* event)

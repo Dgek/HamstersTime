@@ -8,6 +8,7 @@
 
 #include "PuzzleGUI.h"
 #include "PuzzleScene.h"
+#include "SimpleAudioEngine.h"
 
 USING_NS_CC;
 
@@ -63,16 +64,22 @@ bool PuzzleGUI::init()
 
 void PuzzleGUI::vikingTouchEndedCallback(Object* pSender)
 {
+    CocosDenshion::SimpleAudioEngine::sharedEngine()->playBackgroundMusic("background_music_viking.mp3", true);
+    CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("test_sound.wav");
     m_pPuzzle->setActiveViking();
 }
 
 void PuzzleGUI::rastamanTouchEndedCallback(Object* pSender)
 {
+    CocosDenshion::SimpleAudioEngine::sharedEngine()->playBackgroundMusic("background_music_rastaman.mp3", true);
+    CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("test_sound.wav");
     m_pPuzzle->setActiveRastaman();
 }
 
 void PuzzleGUI::geekTouchEndedCallback(Object* pSender)
 {
+    CocosDenshion::SimpleAudioEngine::sharedEngine()->playBackgroundMusic("background_music_geek.mp3", true);    
+    CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("test_sound.wav");
     m_pPuzzle->setActiveGeek();
 }
 

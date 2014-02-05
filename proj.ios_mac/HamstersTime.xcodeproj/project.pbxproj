@@ -92,6 +92,16 @@
 		D6AD392F189ED0C000D8DFEF /* Hmstbig_V_d.png in Resources */ = {isa = PBXBuildFile; fileRef = D6AD392A189ED0C000D8DFEF /* Hmstbig_V_d.png */; };
 		D6AD3930189ED0C000D8DFEF /* Hmstbig_V_d.png in Resources */ = {isa = PBXBuildFile; fileRef = D6AD392A189ED0C000D8DFEF /* Hmstbig_V_d.png */; };
 		D6B0611B1803AB670077942B /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B0611A1803AB670077942B /* CoreMotion.framework */; };
+		D6ED7F4518A2C073007D1336 /* test_sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = D6ED7F4418A2C073007D1336 /* test_sound.wav */; };
+		D6ED7F4618A2C073007D1336 /* test_sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = D6ED7F4418A2C073007D1336 /* test_sound.wav */; };
+		D6ED7F4B18A2C080007D1336 /* background_music.wav in Resources */ = {isa = PBXBuildFile; fileRef = D6ED7F4818A2C080007D1336 /* background_music.wav */; };
+		D6ED7F4C18A2C080007D1336 /* background_music.wav in Resources */ = {isa = PBXBuildFile; fileRef = D6ED7F4818A2C080007D1336 /* background_music.wav */; };
+		D6ED7F5018A2C306007D1336 /* background_music_geek.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D6ED7F4D18A2C306007D1336 /* background_music_geek.mp3 */; };
+		D6ED7F5118A2C306007D1336 /* background_music_geek.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D6ED7F4D18A2C306007D1336 /* background_music_geek.mp3 */; };
+		D6ED7F5218A2C306007D1336 /* background_music_rastaman.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D6ED7F4E18A2C306007D1336 /* background_music_rastaman.mp3 */; };
+		D6ED7F5318A2C306007D1336 /* background_music_rastaman.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D6ED7F4E18A2C306007D1336 /* background_music_rastaman.mp3 */; };
+		D6ED7F5418A2C306007D1336 /* background_music_viking.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D6ED7F4F18A2C306007D1336 /* background_music_viking.mp3 */; };
+		D6ED7F5518A2C306007D1336 /* background_music_viking.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D6ED7F4F18A2C306007D1336 /* background_music_viking.mp3 */; };
 		D6EF6910189E3C09000EDEE3 /* Hamster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6EF690E189E3C09000EDEE3 /* Hamster.cpp */; };
 		D6EF6911189E3C09000EDEE3 /* Hamster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6EF690E189E3C09000EDEE3 /* Hamster.cpp */; };
 		D6EF691A189E41D3000EDEE3 /* evil_forward_d.png in Resources */ = {isa = PBXBuildFile; fileRef = D6EF6919189E41D3000EDEE3 /* evil_forward_d.png */; };
@@ -336,6 +346,11 @@
 		D6AD3929189ED0C000D8DFEF /* Hmstbig_R_d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Hmstbig_R_d.png; path = GUI/Hmstbig_R_d.png; sourceTree = "<group>"; };
 		D6AD392A189ED0C000D8DFEF /* Hmstbig_V_d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Hmstbig_V_d.png; path = GUI/Hmstbig_V_d.png; sourceTree = "<group>"; };
 		D6B0611A1803AB670077942B /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
+		D6ED7F4418A2C073007D1336 /* test_sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = test_sound.wav; path = Effects/test_sound.wav; sourceTree = "<group>"; };
+		D6ED7F4818A2C080007D1336 /* background_music.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = background_music.wav; path = Music/background_music.wav; sourceTree = "<group>"; };
+		D6ED7F4D18A2C306007D1336 /* background_music_geek.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = background_music_geek.mp3; path = Music/background_music_geek.mp3; sourceTree = "<group>"; };
+		D6ED7F4E18A2C306007D1336 /* background_music_rastaman.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = background_music_rastaman.mp3; path = Music/background_music_rastaman.mp3; sourceTree = "<group>"; };
+		D6ED7F4F18A2C306007D1336 /* background_music_viking.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = background_music_viking.mp3; path = Music/background_music_viking.mp3; sourceTree = "<group>"; };
 		D6EF690E189E3C09000EDEE3 /* Hamster.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Hamster.cpp; path = ../Classes/Hamster.cpp; sourceTree = "<group>"; };
 		D6EF690F189E3C09000EDEE3 /* Hamster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Hamster.h; path = ../Classes/Hamster.h; sourceTree = "<group>"; };
 		D6EF6918189E3F2E000EDEE3 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Game.h; path = ../Classes/Game.h; sourceTree = "<group>"; };
@@ -540,6 +555,8 @@
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D6ED7F4318A2C063007D1336 /* Effects */,
+				D6ED7F3C18A2C037007D1336 /* Music */,
 				D6AD3927189ED08B00D8DFEF /* GUI */,
 				D6AD3923189ECEAA00D8DFEF /* HamstersRoom */,
 				D68D1DF5189D58CF00487934 /* Hamsters */,
@@ -588,6 +605,25 @@
 				D6AD392A189ED0C000D8DFEF /* Hmstbig_V_d.png */,
 			);
 			name = GUI;
+			sourceTree = "<group>";
+		};
+		D6ED7F3C18A2C037007D1336 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				D6ED7F4D18A2C306007D1336 /* background_music_geek.mp3 */,
+				D6ED7F4E18A2C306007D1336 /* background_music_rastaman.mp3 */,
+				D6ED7F4F18A2C306007D1336 /* background_music_viking.mp3 */,
+				D6ED7F4818A2C080007D1336 /* background_music.wav */,
+			);
+			name = Music;
+			sourceTree = "<group>";
+		};
+		D6ED7F4318A2C063007D1336 /* Effects */ = {
+			isa = PBXGroup;
+			children = (
+				D6ED7F4418A2C073007D1336 /* test_sound.wav */,
+			);
+			name = Effects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -812,6 +848,11 @@
 				D6AD392B189ED0C000D8DFEF /* Hmstbig_G_d.png in Resources */,
 				D6AD392D189ED0C000D8DFEF /* Hmstbig_R_d.png in Resources */,
 				D6AD392F189ED0C000D8DFEF /* Hmstbig_V_d.png in Resources */,
+				D6ED7F4518A2C073007D1336 /* test_sound.wav in Resources */,
+				D6ED7F4B18A2C080007D1336 /* background_music.wav in Resources */,
+				D6ED7F5018A2C306007D1336 /* background_music_geek.mp3 in Resources */,
+				D6ED7F5218A2C306007D1336 /* background_music_rastaman.mp3 in Resources */,
+				D6ED7F5418A2C306007D1336 /* background_music_viking.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -833,6 +874,11 @@
 				D6AD392C189ED0C000D8DFEF /* Hmstbig_G_d.png in Resources */,
 				D6AD392E189ED0C000D8DFEF /* Hmstbig_R_d.png in Resources */,
 				D6AD3930189ED0C000D8DFEF /* Hmstbig_V_d.png in Resources */,
+				D6ED7F4618A2C073007D1336 /* test_sound.wav in Resources */,
+				D6ED7F4C18A2C080007D1336 /* background_music.wav in Resources */,
+				D6ED7F5118A2C306007D1336 /* background_music_geek.mp3 in Resources */,
+				D6ED7F5318A2C306007D1336 /* background_music_rastaman.mp3 in Resources */,
+				D6ED7F5518A2C306007D1336 /* background_music_viking.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
