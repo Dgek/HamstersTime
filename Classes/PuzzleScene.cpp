@@ -66,7 +66,24 @@ bool Puzzle::init()
     m_pRastamanHamster = Hamster::create("good_forward_d.png");
     m_pRastamanHamster->setPosition(Point(visibleSize.width/2 + origin.x, visibleSize.height/2 + origin.y));
     
-    m_pVikingHamster = Hamster::create("evil_forward_d.png");
+   // m_pVikingHamster = Hamster::create("evil_forward_d.png");
+    CCAnimation* vikingAnim = CCAnimation::create();
+    m_pVikingHamster = Hamster::create("stand0002.png");
+    
+    char szImageFileName[128] = {0};
+    sprintf(szImageFileName, "walk_10002.png");
+    vikingAnim->addSpriteFrameWithFileName(szImageFileName);
+    
+    sprintf(szImageFileName, "walk_20002.png");
+    vikingAnim->addSpriteFrameWithFileName(szImageFileName);
+    
+    vikingAnim->setDelayPerUnit(0.7f / 2.0f);
+    vikingAnim->setLoops(99999999);
+    vikingAnim->setRestoreOriginalFrame(true);
+    
+    CCAnimate * action = CCAnimate::create(vikingAnim);
+    m_pVikingHamster->runAction(action);
+    
     m_pVikingHamster->setPosition(m_pRastamanHamster->getPosition() - Point(300, 0));
     
     m_pGeekHamster = Hamster::create("fat_forward_d.png");
@@ -140,7 +157,8 @@ bool Puzzle::onTouchBegan(cocos2d::Touch* touch, cocos2d::Event* event)
                                (hamsterLoc.y - location.y)*(hamsterLoc.y - location.y));
     timeForAction /= 80;
     
-    m_pActiveHamster->stopAllActions();
+    //m_pActiveHamster->stopAllActions();
+    m_pActiveHamster->stopActionByTag(MOVE_ACTION);
     m_pActiveHamster->runAction(cocos2d::Sequence::create(
                                                           MoveTo::create(timeForAction, location),
                                                           NULL));
